@@ -31,3 +31,15 @@ body {
   }
   
   /* Insert @Media queries here! */
+  @media(max-width:992px){
+    .main{
+        grid-template-columns:repeat(3, 1fr);
+    }
+  }
+
+  @media(max-width:764px){
+    .main{
+        grid-template-columns:repeat(1, 1fr);
+        gap:10px;
+    }
+  }

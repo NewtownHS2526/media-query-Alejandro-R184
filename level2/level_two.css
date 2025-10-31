@@ -35,3 +35,18 @@ body {
   }
   
   /* Insert @Media queries here! */
+    @media(max-width:992px){
+     .footer{
+      display: inline-flex;
+      flex-wrap: wrap-reverse;
+      justify-content:space-evenly;
+      gap:2px;
+    }
+  }
+  @media(max-width:1200px){
+    .footer{
+      display: inline-flex;
+      gap:2px;
+
+    }
+  }
