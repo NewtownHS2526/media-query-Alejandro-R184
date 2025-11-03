@@ -44,10 +44,13 @@
   
   /* Insert @Media queries here! */
   @Media(min-width:1200px){
-    .main-nav{
-    
-    }
+   
   }
-  @Media(min-width:764px){
-
+  @Media(max-width:764px){
+    .nav-item{
+    display:none;
+    }
+    .main-nav{
+      justify-self: center;
+    }
   }

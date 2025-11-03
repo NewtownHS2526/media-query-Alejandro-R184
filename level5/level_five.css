@@ -1,6 +1,7 @@
 /* Notice the "grid-area" */
 .webpage {
     display: grid;
+    gap:20px;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 40px auto 120px;
     grid-template-areas:
@@ -54,3 +55,21 @@
   }
   
   /* Insert @Media queries here! */
+  @media(max-width:992px){
+    .sidebar{
+      grid-area: header;
+      flex-direction: row;
+      justify-content: flex-start;
+      gap:0px;
+      align-content:start;
+    }
+    .profile{
+      flex-direction: row;
+    }
+    .side-item{
+      display: none;
+    }
+  }
+  @media(max-width:1200px){
+
+  }
